@@ -38,7 +38,7 @@ const SpotifyNowPlaying = (props) => {
 
                             <div className='w-full h-fit relative'>
                                 <img className='w-fit h-6 p-1 object-contain absolute -rotate-45 z-10' src={spotify} alt="" />
-                                <img className='w-fit h-fit rounded-lg' src={result.albumImageUrl} alt="album-image" />
+                                <img className='w-fit h-full rounded-lg' src={result.albumImageUrl} alt="album-image" />
                             </div>
 
                             <div className='flex flex-col  text-left'>
