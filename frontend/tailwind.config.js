@@ -6,8 +6,9 @@ export default {
       colors: {
         'mint': '#dbfff8',
         'black': '#000000',
-        'gray-dark': '#273444',
-        'gray-light': '#d3dce6',
+        'gray-dark': '#242423',
+        'gray-light': '#525453',
+        'white': '#EFF2F4',
       },
       fontFamily: {
         GT_Flexa: ['GT-Flexa', 'sans-serif'],
