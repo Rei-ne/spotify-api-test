@@ -22,7 +22,7 @@ const SpotifyNowPlaying = (props) => {
 
     return (
         <div className='flex
-         min-w-md w-[250px] h-80 text-white items-center justify-center  text-base border rounded-lg border-gray-dark bg-gray-dark font-GT_Flexa'>
+         min-w-md w-[250px] h-fit text-white items-center justify-center p-2  text-base border rounded-lg border-gray-dark bg-gray-dark font-GT_Flexa'>
 
 
             {loading ? <div className='flex p-2
@@ -41,12 +41,12 @@ const SpotifyNowPlaying = (props) => {
                                 <img className='w-fit h-full rounded-lg' src={result.albumImageUrl} alt="album-image" />
                             </div>
 
-                            <div className='flex flex-col  text-left'>
-                                <div className=''>
-                                    <a className=" px-1  text-left underline " href={result.songUrl} target="_blank">{result.title}</a>
+                            <div className='flex flex-col  text-left mt-2'>
+                                <div className='w-fit h-fit'>
+                                    <a className="text-left underline " href={result.songUrl} target="_blank">{result.title}</a>
                                 </div>
-                                <div>
-                                    <p className=" px-1 text-left ">{result.artist}</p></div>
+                                <div className='w-fit h-fit'>
+                                    <p className="text-left ">{result.artist}</p></div>
                             </div>
 
 
